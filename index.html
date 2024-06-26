@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div class="container">
+        <div class="left">
+            <input type="file" id="upload" />
+            <audio id="audio" controls>
+                <source src="" id="src" />
+            </audio>
+            <input type="text" id="lyricsinput">
+            <div class="buttons">
+                <button id="submit">Submit</button>
+                <button id="clear">Clear Line</button>
+                <button id="downloadlink">Download</a> 
+            </div>
+        </div>
+        <div class="right">
+            <div class="lyricscontainer">
+                <span id="lyricsfinal">[lr: Made with Lyrical]</span>
+                
+            </div>
+            
+        </div>
+
+        <span id="lyricsdownload" style="display: none;">[lr: Made with Lyrical]</span>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
